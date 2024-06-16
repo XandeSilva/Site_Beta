@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ROBOT - ROBOTICA </title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="navbar-brand">
+          <a href="index.html">
+            <img src="img/Logo1.png" alt="" />
+          </a>
+        </div>
+
+        <ul class="navbar-nav-left">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="sustentavel.html">Sustentavel</a>
+          </li>
+          <li>
+            <a href="educacional.html">Educacional</a>
+          </li>
+          <li>
+            <a href="automacao.html">Automação</a>
+          </li>
+          <li>
+          <a href="https://guia-wcag.com/">WCAG</a>
+        </li>
+      </ul>
+
+      <div class="controls">
+        <button onclick="increaseFontSize()">A+</button>
+        <button onclick="decreaseFontSize()">A-</button>
+        <select id="colorBlindness" onchange="changeColorScheme()">
+            <option value="normal">Normal</option>
+            <option value="protanopia">Protanopia</option>
+            <option value="deuteranopia">Deuteranopia</option>
+            <option value="tritanopia">Tritanopia</option>
+        </select>
+    </div>
+     
+
+        <button type="button" class="CENTRAL" id="menu-btn">
+          <span class="top"></span>
+          <span class="middle"></span>
+          <span class="bottom"></span>
+        </button>
+      </div>
+    </nav>
+    <center>
+      <div class="carrossel">
+        <div class="container">
+          <img src="img/1.png" alt="" />
+          <img src="img/2.png" alt="" />
+          <img src="img/3.png" alt="" />
+
+        </div>
+      </div>
+      <br>
+      <!-- Inicio do código de libras -->
+        <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+        </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+          </script>
+<!-- Fim do código de libras -->
+      <br>
+      <br>
+      <p>Bem-vindo ao nosso site acessível. Aqui você pode ajustar o tamanho da fonte e as cores para melhorar a leitura.</p>
+        <div class="images">
+          <a href="sustentavel.html">
+            <img src="img/sustentavel.png" alt="" />
+          </a>
+          <a href="educacional.html">
+            <img src="img/educacional.png" alt="" />
+          </a>
+          <a href="automacao.html">
+            <img src="img/automação.png" alt="" />
+          </a>
+        </div>
+    </center>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+      <div>
+    <div class="divider"></div>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="social">
+          <a href="https://facebook.com">
+            <img src="./img/social-facebook.svg" alt="" />
+          </a>
+          <a href="https://instagram.com">
+            <img src="./img/social-instagram.svg" alt="" />
+          </a>
+          <a href="https://youtube.com">
+            <img src="./img/social-youtube.svg" alt="" />
+          </a>
+        </div>
+        <CENTER>
+        <p>© 2024 ROBOT. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </CENTER>
+    <script src="script.js"></script>
+  </body>
+</html>
